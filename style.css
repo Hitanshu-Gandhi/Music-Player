@@ -1,0 +1,76 @@
+body{
+  background-color: rgb(158, 249, 237);
+}
+
+/* Style the audio player */
+#audio-player {
+  width: 500px;
+  box-shadow: 0.2rem 0 1.2rem rgb(240, 227, 84);
+  border-radius: 2rem;
+}
+
+#audio-player:hover {
+  transform: scale(1, 1.2);
+
+}
+
+nav{
+  background-color: rgb(3, 29, 94);
+  display: flex;
+  justify-content: center;
+  border-radius: 1rem;
+}
+
+nav h1{
+  font-size: 2rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgb(204, 201, 10);
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+}
+
+/* Style the shuffle button */
+#shuffle-button {
+  background-color: rgb(223, 220, 120);
+  color: rgb(2, 44, 70);
+  padding: 6px 25px;
+  border-radius: 2rem;
+  cursor: pointer;
+  margin-left: 2rem;
+}
+
+#shuffle-button:hover{
+  transform: scale(1.2,1);
+}
+
+/* Style the playlist */
+#playlist {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-table;
+}
+
+li{
+  padding: 1rem;
+  font-style:oblique;
+  font-weight: bolder;
+}
+
+.track {
+  cursor: pointer;
+}
+
+#song-logo {
+  width: 200px;
+  height: 200px;
+  border-radius: 4rem;
+  padding: 2rem;
+}
+
+.track.playing {
+  color: rgb(252, 59, 0);
+}
