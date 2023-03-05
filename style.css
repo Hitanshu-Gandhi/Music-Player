@@ -61,7 +61,18 @@ li{
 }
 
 .track {
+  padding: 1rem;
   cursor: pointer;
+  border-color: black;
+  background-color: rgb(194, 237, 73);
+  border-radius: 2rem;
+  display: flex;
+  justify-content: center;
+  margin: 1.5rem;
+}
+
+.yo{
+  display: flex;
 }
 
 #song-logo {
@@ -73,4 +84,5 @@ li{
 
 .track.playing {
   color: rgb(252, 59, 0);
+  background-color: green;
 }
